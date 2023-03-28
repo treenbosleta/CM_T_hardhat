@@ -5,3 +5,4 @@
 测试理论不再赘述，详见https://github.com/treenbosleta/truffle-tests-tutorial-master/blob/master/README.md
 
 
+先说合约代码
