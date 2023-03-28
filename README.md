@@ -5,7 +5,7 @@
 测试理论不再赘述，详见https://github.com/treenbosleta/truffle-tests-tutorial-master/blob/master/README.md
 
 
-先搞定hardhat环境（省略......）
+先搞定hardhat环境（npx hardhat）
 
 
 
@@ -53,6 +53,7 @@ contract Lock {
   
   
   
+  然后进行编译  npx hardhat compile
   
   
   
@@ -201,7 +202,7 @@ describe("Lock", function () {
   loadFixture这个跟web2测试里的pytest框架中中fixture的setup效果一致，都是为了测试前的环境准备
   
   
-  
+  执行测试 npx hardhat test
   
   
   
